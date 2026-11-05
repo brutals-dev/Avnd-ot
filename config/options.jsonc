@@ -25,15 +25,15 @@
         /* Add up to 5 modal questions IDs from (config/questions.jsonc). */
         "questions":["example-question-1","example-question-2"],
         
-        "ticketAdmins":["DISCORD_ROLE_ID"],
-        "readonlyAdmins":["DISCORD_ROLE_ID"],
+        "ticketAdmins":["<@&1564205048714760223>"],
+        "readonlyAdmins":["<@&1564205101076451358>"],
         "allowCreationByBlacklistedUsers":false,
         
         "channel":{
             /* Configure the name, topic and category of the ticket option. */
             "prefix":"question-",
             "suffix":"user-name", //Choices: user-name, user-id, random-number, random-hex, counter-dynamic, counter-fixed
-            "category":"DISCORD_CATEGORY_ID", //Leave empty to disable
+            "category":"1564179578497269770", //Leave empty to disable
             "topic":"The ticket topic shown in the channel." //Leave empty to disable
         },
         
